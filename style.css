@@ -1,39 +1,36 @@
-/* Основні стилі */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-}
-
-header {
-    margin-bottom: 20px;
+    font-family: sans-serif;
 }
 
 h1 {
-    color: #4CAF50;
+    text-align: center;
+    font-size: 60px;
 }
 
-p {
-    font-size: 18px;
+h2{
+    font-size: 40px;
+    background-color: peru;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+a {
+    color: black;
+    font-size: 20px;
 }
 
-button:hover {
-    background-color: #45a049;
+p, img {
+    border: 3px solid peru;
+}
+
+p, table {
+    font-size: 20px;
+}
+
+table{
+    background-color: lightyellow;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid brown;
 }
